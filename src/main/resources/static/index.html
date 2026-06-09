@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ATS Resume Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🚀 ATS Resume Analyzer</h1>
+
+    <p class="subtitle">
+        Upload Resume • Match Job Description • Get ATS Score
+    </p>
+
+    <input
+        type="file"
+        id="resumeFile"
+        accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+
+    <textarea
+        id="jobDescription"
+        placeholder="Paste Job Description Here..."></textarea>
+
+    <button onclick="analyzeResume()">
+        🔍 Analyze Resume
+    </button>
+
+    <div class="progress">
+        <div id="progressBar">0%</div>
+    </div>
+
+    <div id="result"></div>
+
+    <div style="margin-top:20px;text-align:center;">
+        <button
+            onclick="window.location.href='history.html'"
+            style="background:#22c55e;">
+            📊 View Analysis History
+        </button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+body{
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(135deg,#4f46e5,#7c3aed);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:30px;
+}
+
+.container{
+width:900px;
+background:white;
+border-radius:25px;
+padding:40px;
+box-shadow:0 20px 60px rgba(0,0,0,.2);
+}
+
+h1{
+text-align:center;
+color:#4f46e5;
+font-size:50px;
+}
+
+.subtitle{
+text-align:center;
+color:#64748b;
+margin-bottom:30px;
+}
+
+input[type="file"],
+textarea{
+width:100%;
+padding:15px;
+border:2px solid #ddd;
+border-radius:12px;
+margin-top:15px;
+}
+
+textarea{
+height:180px;
+}
+
+button{
+width:100%;
+margin-top:20px;
+padding:15px;
+border:none;
+border-radius:12px;
+background:#4f46e5;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover
+
+.progress{
+margin-top:20px;
+background:#ddd;
+border-radius:20px;
+overflow:hidden;
+}
+
+#progressBar{
+height:30px;
+width:0;
+background:#22c55e;
+color:white;
+text-align:center;
+line-height:30px;
+}
+
+#result{
+margin-top:25px;
+background:#f8fafc;
+padding:20px;
+border-radius:12px;
+}
+.result-card{
+    background:#f8fafc;
+    padding:20px;
+    border-radius:15px;
+    margin-top:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.result-card h2{
+    margin-bottom:15px;
+}
+
+.result-card h3{
+    margin:10px 0;
+}
